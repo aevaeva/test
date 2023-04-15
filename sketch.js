@@ -1,3 +1,4 @@
+let t = 0;
 let words = ['ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL'];
 let indexWord = 0;
 let font1;
