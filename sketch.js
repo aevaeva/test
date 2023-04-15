@@ -42,7 +42,7 @@ function draw() {
 	let fontSizeVal = fontSize.value();
 	textSize(fontSizeVal);
 	
-	
+  t++;
 	let textWid = textWidth(words[indexWord]);
 	translate((windowWidth/2)-(textWid/2+950) , 0);
 	
