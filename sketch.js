@@ -9,7 +9,7 @@ let horOffset;
 
 function preload() {
    font1 = loadFont('itc-avant-garde-gothic-std-bold-589572c7e9955.otf');
-	 img = loadImage('l.png');
+	 img = loadImage('1681533664529.png');
 }
 
 function setup() {
