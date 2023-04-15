@@ -1,15 +1,12 @@
-var t = 0;
 let words = ['ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL ANGELA ANDAL'];
 let indexWord = 0;
 let font1;
-let img;
 let fontSize;
 let horSpace;
 let horOffset;
 
 function preload() {
    font1 = loadFont('itc-avant-garde-gothic-std-bold-589572c7e9955.otf');
-	 img = loadImage('1681533664529.png');
 }
 
 function setup() {
@@ -45,8 +42,6 @@ function draw() {
 	textSize(fontSizeVal);
 	
 	
-	image(img, 0, 0, windowWidth, windowHeight);
-	t++;
 	let textWid = textWidth(words[indexWord]);
 	translate((windowWidth/2)-(textWid/2+950) , 0);
 	
